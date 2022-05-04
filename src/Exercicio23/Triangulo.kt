@@ -6,7 +6,10 @@ class Triangulo:CalcularArea {
     private var area = 0.0
 
     override fun area(base: Double, altura: Double) {
-        area = (base * altura)/2
+        println("Digite a área maior(d1) e a área menor(d2)")
+        this.base = readln().toDouble()
+        this.altura = readln().toDouble()
+        area = (this.base * this.altura)/2
         println("A área do triangulo é: $area")
     }
 

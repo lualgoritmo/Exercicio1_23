@@ -13,19 +13,19 @@ fun main() {
         opcao = readln().toInt()
         if(opcao == 1){
             val quadrado:CalcularArea = Quadrado()
-            quadrado.area(10.0, 10.0)
+            quadrado.area(0.0, 0.0)
         }
         else if(opcao == 2) {
             val triangulo:CalcularArea = Triangulo()
-            triangulo.area(10.0, 10.0)
+            triangulo.area(0.0, 0.0)
         }
         else if (opcao == 3) {
             val retangulo:CalcularArea = Retangulo()
-            retangulo.area(15.2, 10.0)
+            retangulo.area(0.0, 0.0)
         }
         else if (opcao == 4) {
             val losango:CalcularArea = Losango()
-            losango.area(10.0, 7.0)
+            losango.area(0.0, altura = 0.0)
         }
         else if (opcao == 5) {
             exitProcess(0)
